@@ -1,0 +1,118 @@
+/* start global roles   */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* end global roles */
+/* start header  */
+.header{
+     background: blue;
+     height: 70px;
+}
+.header ul{
+    list-style: none; 
+    margin-left: 50px;
+    display: flex;
+}
+.header ul li{
+   line-height: 70px;
+   margin: 0 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(255, 253, 248);
+    font-weight: bolder;
+    font-size: 22px;
+}
+.header ul .line{
+    font-size: 27px;
+    font-weight:bold ;
+    color: white;
+
+}
+/* end header */
+/* start add employee page  */
+.box{
+
+    border: 1px solid black;
+    padding: 15px;
+    width: 500px;
+    margin: 50px;
+}
+.box h1{
+    margin-bottom: 10px;
+}
+.box label{
+    margin: 15px 0;
+    font-weight: bolder;
+}
+.box input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    margin: 10px 0;
+}
+.box button{
+    padding: 5px;
+    background-color: green;
+    width: 150px;
+    outline: 0;
+}
+/* end emoloyuee page */
+/*  start dashborad */
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+.container h1{
+    text-align: center;
+    margin: 10px 0;
+}
+.container .table-content{
+    width: 100%;
+}
+.container .table-content td{
+    padding: 0.75rem;
+    max-width:25% ;
+}
+.container .table-content thead{
+    background: rgb(42, 43, 133);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.container .table-content tbody{
+    color: white;
+    background: #999999;
+}
+.container .table-content  .btn_edit{
+    text-decoration: none;
+}
+.container .table-content  .btn_edit button{
+    width: 50px;
+    padding: 3px;
+    background: blue;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bolder;
+    color: white;
+}
+.container .table-content  .btn_delete{
+    text-decoration: none;
+}
+.container .table-content  .btn_delete button{
+    width: 50px;
+    padding: 3px;
+    background: rgb(255, 30, 0);
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bolder;
+    color: white;
+}
+/* end dashbord  */
